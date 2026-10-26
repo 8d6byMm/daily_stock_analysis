@@ -472,7 +472,7 @@ jobs:
           fi
 
           # 判断运行模式
-          MODE="${{ github.event.inputs.mode || 'full' }}"
+          MODE="${{ github.event.inputs.mode || 'market-only' }}"
           
           echo "=========================================="
           echo "🚀 A股自选股智能分析系统"
